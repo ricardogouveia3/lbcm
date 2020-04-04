@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>LBCM - Length Based Crypt Machine</title>
+  <meta name="description" content="A length based crypt machine in JS">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="container">
+    <div class="modal">
+      <div class="row title-row">
+        <h1>LBCM - Length Based Crypt Machine</h1>
+      </div>
+      <div class="row text-row">
+        <div class="col">
+          <div class="textarea-group">
+            <textarea id="entry" placeholder="Texto para criptografar" name="entry" cols="30" rows="10"></textarea>
+            <button class="crypto" id="entryToExit">Criptografar</button>
+          </div>
+        </div>
+        <hr>
+        <div class="col">
+          <div class="textarea-group">
+            <textarea placeholder="Texto para descriptografar" id="exit" name="exit" cols="30" rows="10"></textarea>
+            <button class="decrypto" id="exitToEntry">Descriptografar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
