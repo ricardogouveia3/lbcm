@@ -1,2 +1,2 @@
-# lbmc
+# LBCM
 Length Based Crypto Machine
